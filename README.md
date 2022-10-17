@@ -19,8 +19,9 @@ Desarrollo de Pruebas de Ingreso para Habi
   <li><b>main.py:</b>Desd este archivo se realizara la ejecución del proyecto.</li>
 </ul>
 Los datos para el cliente se dben mostrar en el siguiente formato:</br>
-![Image text](https://github.com/javelasco30/habi/blob/main/src/img/Json_example.png.png)
+![Image text](https://github.com/javelasco30/habi/blob/main/src/img/Json_example.png)
 
+</br>
 
 # Segundo Requerimiento
 Se crear esta tabla para almacenar la informacion de los "Me gusta" para cada uno de los inmubles</br>
