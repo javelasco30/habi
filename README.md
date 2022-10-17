@@ -18,7 +18,7 @@ Desarrollo de Pruebas de Ingreso para Habi
   <li><b>tests:</b>En esta carpeta se colocaran todas las clases necesarias para poder realizar los test unitarios.</li>
   <li><b>main.py:</b>Desd este archivo se realizara la ejecución del proyecto.</li>
 </ul>
-Los datos que deben mostrar para el cliente cuando consuma los servicios:</br>
+Es es el fomato de los datos que deben mostrar para el cliente cuando consuma los servicios:</br>
 
  ![Image text](https://github.com/javelasco30/habi/blob/main/src/img/Json_example.png)
 
