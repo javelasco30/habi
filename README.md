@@ -18,6 +18,8 @@ Desarrollo de Pruebas de Ingreso para Habi
   <li><b>tests:</b>En esta carpeta se colocaran todas las clases necesarias para poder realizar los test unitarios.</li>
   <li><b>main.py:</b>Desd este archivo se realizara la ejecución del proyecto.</li>
 </ul>
+Los datos para el cliente se dben mostrar en el siguiente formato:</br>
+
 
 # Segundo Requerimiento
 Se crear esta tabla para almacenar la informacion de los "Me gusta" para cada uno de los inmubles</br>
@@ -30,4 +32,6 @@ CREATE TABLE property_like_history (</br>
   FOREING KEY (auth_user_id) REFERENCES auth_user(id),</br>
   FOREING KEY (property_id) REFERENCES property(id)</br>
  ) TYPE = INNODB;</br>
- Se crear las relaciones con la tabla auth_user para asociar el usuario que da like a la propiedad y conla tabla property para asociar la la propiedad que se quiere dar el "Me Gusta".
+ Se crear las relaciones con la tabla auth_user para asociar el usuario que da like a la propiedad, esta relacion se hace atraves de la llave foranea <b>auth_usar_id</b> y con la tabla property para asociar la la propiedad que se quiere dar el "Me Gusta", esta relacion se crea a  traves de la llave foranea <b>property_id</b>.Tambien se agrega el campo <b>date</b> para registrar la fecha en que se realiza el registro.</br>
+ ![Image text](https://github.com/javelasco30/habi/blob/main/src/img/diagrama.png)
+ 
